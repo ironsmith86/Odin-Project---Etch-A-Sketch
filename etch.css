@@ -1,0 +1,102 @@
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/***New Grid Button - Only button on the page!!!***/
+.myButton {
+	-moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+    margin: 10px auto;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+    outline: none;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+/***Red Casing around the drawing screen***/
+
+#redCase {
+    width: 800px;
+    height: 800px;
+    background: #8b1919;
+    border: 1px solid #7F0000;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+    -webkit-box-shadow: inset 0px 0px 10px 5px #b26666;
+}
+
+/**Drawing screen**/
+#screen {
+	width: 600px;
+	height: 600px;
+    margin: 50px auto;
+	border: 1px solid #000;
+	background: #666;
+	display: block;
+    box-shadow: inset 0px 0px 5px 5px #555; 
+    -webkit-box-shadow: inset 0px 0px 5px 5px #555; 
+    -moz-box-shadow: inset 0px 0px 5px 5px #555; 
+}
+
+/***The divs that imitate the pencil line***/
+.block {
+	float: left;
+	display: inline-block;
+	margin: 0;
+
+}
+
+.white {
+	background: #fff;
+}
+
+.black {
+	background: #000;
+}
+
+/***Dials***/
+
+#dialWrap {
+    width: 600px;
+    margin: -25px auto 0;
+}
+
+.dialStyle {
+    height: 100px;
+    width: 100px;
+    background: #cccfbc;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+    box-shadow: 5px 5px 10px 5px #320000;
+    -moz-box-shadow: 5px 5px 10px 5px #320000;
+    -webkit-box-shadow: 5px 5px 10px 5px #320000;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
